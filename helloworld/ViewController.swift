@@ -21,7 +21,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet var helloworldLabel: UILabel!
+    @IBOutlet var helloworldButton: UIButton!
+    @IBAction func TouchHelloworldButton(_ sender: Any) {
+        helloworldLabel.textColor = UIColor.black
+    }
     
-
 }
 
